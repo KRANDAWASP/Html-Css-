@@ -1,0 +1,66 @@
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+/*viewport height - vh */
+/*viewport width -vw*/  
+.mainContainer{
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+.logincontainer{
+    width: 50px;
+    min-height: 300px;
+    max-height: 500px;
+    border: 1px solid 600px;
+}
+.userimg{
+    width: 10px;
+    height: 100px;
+}
+.imgcontainer{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+.formcontainer{
+    display: flex;
+    justify-content:space-between;
+    align-items: content;
+    margin: 20px 30px;
+}
+.formcontainer input{
+    width: 60px;
+    padding: 5px 10px;
+    font-size: 17px;
+}
+.buttoncontainer{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.buttoncontainer button{
+    padding: 8px 50px;
+    border: none;
+    background-color: rgb(31, 100, 129);
+    border-radius: 4px;
+    color: aliceblue;
+    cursor: pointer;
+    transition: padding;
+}
+
+.buttoncontainer button:hover{
+    padding: 8px 100px;
+    box-shadow: 10px 0px 10px 5px gray;
+}
